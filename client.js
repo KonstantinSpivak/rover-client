@@ -16,7 +16,7 @@ var fs = require("fs");
 var v4l2camera = require("v4l2camera");
 //
 var stream = ss.createStream();
-var filename = 'profile.jpg';
+var filename = 'result.jpg';
 var interval = 0;
 socket.on('connect', function(){
     interval = setInterval(function() {
